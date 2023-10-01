@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title translationKey="page_title">Unity WebGL Player | %UNITY_WEB_NAME%</title>
+  <meta name="description" translationKey="page_description"
+    content="BlockStarPlanet: The best block-building app for creative friends! Join our world and build your own multiplayer games or join the millions of funny games crafted by other players!" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="https://www.blockstarplanet.pl/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://www.blockstarplanet.pl/img/favicon.ico" type="image/x-icon">
+
+  <!-- Style -->
+  <link rel="stylesheet" type="text/css" href="style/gameStyle.css" />
+
+  <!-- scripts -->
+  <script type="text/javascript" src="https://www.blockstarplanet.pl/Nebula/dist/nebula.js"></script>
+  <script type="text/javascript" src="https://www.blockstarplanet.pl/js/gameScript.js"></script>
+  <script type="text/javascript" src="https://www.blockstarplanet.pl/Nebula/dist/unity.js"></script>
+
+</head>
+
+<body>
+<div id="nebContainer" class="neb-fullScreebLayer" style="display: none;"><!-- All nebula UI gets rendered inside here-->
+  <!-- Game embed-->
+  <canvas id="unity-canvas" class="display-center"></canvas>
+  <!-- End Game embed -->
+
+  <div class="text-white document-font center">
+
+    <!-- Home -->
+    <div id="overlay" class="main-bg neb-fullScreenLayer">
+      <img id="fullScreenButton" class="full-btn-img" src="img/fullscreen.png" role="button"/>
+      <img id="logo" class="drop-shadow" src="img/logo.png">
+      <h1 translationKey="page_headline" class="blurry-shadow"></h1>
+      <div class="button-container">
+        <div id="loadingBar" style="display:none"></div>
+        <div class="button-margin">
+        <div id="downloadButtonContainer" class="button-margin" style="margin-top:10px; min-width: 450px;">
+          <a href="https://www.blockstarplanet.pl/BlockStarPlanetSetup.exe?v=6" target="_blank" style="text-decoration:none; color:inherit">
+              <div id="downloadButton" class="drop-shadow" href="#" role="button">
+                <img id="downloadButtonBrowserIcon">
+                <span translationKey="download" class="button-label .button-browser-logo .button-text-with-logo soft-shadow"></span>
+              </div>
+          </a>
+          <br>
+        </div>    
+         <div class="button-margin" style="min-width: 450px;">
+          <div id="playButton" class="drop-shadow" href="#" role="button">
+            <img id="playButtonBrowserIcon">
+            <span id="playButtonText"  class="button-label .button-browser-logo soft-shadow"></span>
+          </div>
+        </div>
+      </div>
+      <div id="giftContainer">
+        <img id="gift_img" translationKey="gift_image">
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
