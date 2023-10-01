@@ -1,0 +1,46 @@
+
+{
+	"gameId": "ywru",
+    "appleStoreUrl": "https://apps.apple.com/dk/app/roboblastplanet/id881010518",
+    "androidStoreUrl": "https://play.google.com/store/apps/details?id=air.com.moviestarplanet.roboblastplanet",
+    "googleTagManagerId": "GTM-K4F22P9",
+	"timeShowingLoadingBarText":"1500",
+    "cacheExpirationTime": "30",
+    "cacheDeleteCount":"500",
+    "privacyLink":"https://moviestarplanet.zendesk.com/hc/${COUNTRY_CODE}/articles/360004162300-BlockStarPlanet-Privacy-Policy",
+    "safeSeal": {
+        "include": "false",
+        "link": "https://www.kidsafeseal.com/certifiedproducts/blockstarplanet.html",
+        "description": ""
+    },
+    "getWindows": {
+        "include": "true",
+        "link":"BlockStarPlanetSetup.exe?v=6"
+    },
+    "getAppStore": {
+        "include": "true",
+        "link":"https://apps.apple.com/dk/app/roboblastplanet/id881010518"
+    },
+    "getPlayStore": {
+        "include": "true",
+        "link":"https://play.google.com/store/apps/details?id=air.com.moviestarplanet.roboblastplanet"
+    },
+    "cookieScriptId": {
+        "au":"86ee498c8ec41e079882b635d98e65b5",
+        "ca":"377ec569bedd871b3a08681e210b28ea",
+        "de":"7f2b32e9152e4f3bcaa2855d32573b23",
+        "dk":"1d59258cd770787b7c1fb7a74594646b",
+        "es":"0a70965b750c4c344f99329ff7c9a1b4",
+        "fi":"2238062a1630a05fa35ed7de1b6a12ee",
+        "fr":"251de918aef3854170e7eb31916a1232",
+        "gb":"7176f4639428d9f5343e51260b6254b9",
+        "ie":"f37ea43667d29b2988201dd1d4231af7",
+        "nl":"16591d120d1fac8b3a150193a5e3a4b0",
+        "no":"a7e073a734b500d9e7c4bfff8f10be03",
+        "nz":"fbe1e0f5bd23efdb7cdb6ddc9d3e2090",
+        "pl":"3d370b04c5773d9a19bf6eb1b5d03408",
+        "se":"7af6ecb5d71122ed9cea2a4d904f0f56",
+        "tr":"9f24890e24b4581238a96c56452a39a9",
+        "us":"53e01469eed70918b84e279226dc4f80"
+      }
+}
